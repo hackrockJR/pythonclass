@@ -26,3 +26,94 @@ python3.8 -c 'print("Hola mundo!");print("Hola mundo2")'
 linux# which python3.8
 
 /usr/bin/python3.8
+ubicar en la primera linea del fichero el shebang + ubicacion del interprete.
+
+#!/usr/bin/python3.8
+print("Hola")
+
+// Dar permiso al fichero//
+
+
+chmod u+x hola.py
+
+u // Solo le da permiso al usuario creador de fichero. 
+
+
+//ejecutar fichero despues de aplicar el shebang y los permisos //
+
+./hola.py
+
+// Operaciones con numeros  modo interprete //
+
+2+2 
+
+//Operaciones con numeros modo one-liner //
+
+python3.8 -c 'print(4+2)'
+
+operadores> 
+
++ - * ** / // % ()
+
+**  es potencia 
+//  es divicion resultado en enteros
+% Division resultado en entero
+() Prioridad
+
+// Cadenas de texto //
+
+se usan comillas "" y ' ' para definir la cadena de texto
+
+para concatenar se usa +
+
+ejemplo 
+
+"Hola" + "Mundo"
+
+Resultado> Hola mundo
+
+Repetir una cadena de texto> 
+
+"hola " * 3  // Se repetira 3 veces el hola 
+
+Uso de cadenas de texto largas> 
+
+""" Este es un mensaje de prueba de una cadena larga de textto en python """
+
+Imprimir solo un digito de una cadena de texto , definiendo la posicion del caracter>
+
+>>> "Mundo" [0] 
+
+0 primera posicion 
+-1 ultima posicion 
+2 tercera posicion 
+1 segunda posicion 
+-2 es la segunda posicion de derecha a izquierda
+
+Acceder a mas de un caracter de la cadena de texto>
+
+"Mundo" [0:2]
+"Mundo" [:2]
+
+En ambas solicita inicar de la posicion 1 hasta la segunda , la posicion [2] no va incluida 
+Se considera como el limite , pero no se imprime. 
+
+En el caso de no definir el valor de inicio como en [:2] se etiende que inicia de la primera posicion. 
+
+En el caso contrario de defirn del final hacia atras seria [-2:] , donde el se imprime la primera y 
+segunda posicion de derecha a izquierda es decir el ultimo caracter y el penultimo. 
+
+En el caso de definir entre dos rangos distintos al inicio y final tomara los valores desde la primera 
+posicion definida en corcheta hasta uno menos del valor definido como limite>
+
+"HolaMundo" [2:5]
+
+H | o | l | a | M | u | n | d | o
+0 | 1 | 2 | 3 | 4 | 5 | 6 | 7 | 8
+-9|-8 |-7 |-6 |-5 | -4| -3| -2|-1
+
+Resultado : laM
+
+"HolaMundo" [-7:-4] 
+
+Resultado : laM
