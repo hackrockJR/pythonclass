@@ -1,0 +1,105 @@
+Variables
+
+Se aloja en memoria
+
+Se accede a traves de un identificador
+
+* En python no necesitamos especificar el tipo
+
+usamos el operador igual =
+
+>>>tweet = "Primer mensaje" 
+>>>print(tweet)
+primer mensaje
+
+>>> likes= 24
+>>> likes
+24
+>>> Print(likes)
+24
+>>>
+
+
+////Metodos de cadenas de textos ////
+
+methods son funcionalidades ofrecidas por python para facilitar tareas.
+
+cadena.upper()  // metodo upper y no contiene argumento. 
+
+ejemplo> 
+
+>>>"twitter".upper() //uper es metodo que convierte a mayuscula la cadena de texto
+TWITTER
+
+>>> tweet= "Primer mensaje"  // Declaracion de variable
+>>> tweet.upper() // aplicacion del metodo upper a la variable tweet
+'PRIMER MENSAJE'
+>>>tweet  // llamado a la variable sin metodo aplicado
+primer mensaje
+
+lower() // metodo para pasar a minuscula 
+capitalize() // metodo para poner la primera letra en mayuscula. 
+count("m") // metodo para buscar en la cadena de texto la letra m
+
+ejemplo>
+
+>>>tweet= "Primer Mensaje"
+>>>tweet.count("m") 
+2 
+
+replace(antiguo,nuevo) // metodo para reemplazar una busqueda por un valor nuevo
+
+ejemplo>
+
+>>>tweet= "Primer Mensaje"
+>>>tweet.replace("Primer","Segundo")
+Segundo Mensaje
+
+// Pasar el resultdo a una segunda variable con la aplicacion de un metodo a la primera. 
+
+>>>tweet= "Primer mensaje"
+>>>tweet2= tweet.replace("Primer","Segundo")
+>>>tweet2 
+'Segundo mensaje'
+
+// Para contar una cadena de texto completa no existe metodo, se debe usar la funcion de python len
+
+>>>len("Cadena de caracter") 
+>>>len(tweet)
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
