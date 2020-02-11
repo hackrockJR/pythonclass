@@ -1,0 +1,13 @@
+Instrucciones>
+
+1. Inicializar una variable, llamada "texto", con el texto "Hola mundo"
+2. Otra variable, llamada "numero", con el numero 2016
+3. Visualizar primero la variable "texto" y a continuacion la variable "numero" (en distintas lineas). 
+
+
+texto = "Hola mundo"
+numero = int("2016")
+# Visualizar variables
+print(texto)
+print(numero)
+
