@@ -1,0 +1,16 @@
+Panel de control > Systema y seguridad > sistema
+
+Configuracion Avanzada del sistema > Propiedades del sistema > variable de entorno
+
+>>> Agregar las rutas de instalacion de python> <<<<<
+
+En variable de usuario para jromero> editar PATH
+
+C:\Python30
+C:\Python30\Tools\Scripts
+
+Variable del sistema 
+
+Editar PATH 
+
+C:\Python30\Tools\Scripts
