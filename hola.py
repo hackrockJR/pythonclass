@@ -46,6 +46,10 @@ lista2.remove("Insertado")
 
 print(lista2)
 
+del lista1[0] 
+
+print (lista1)
+
 
 
 
