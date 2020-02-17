@@ -14,6 +14,47 @@ Resultado= len(lista1)
 
 print ("Total de la lista=", Resultado)
 
+#Modificar lista 
+
+lista1[4] = "Ultimo"
+
+print (lista1)
+
+lista2 = [1,"user", "mensaje"]
+
+lista2.append("Fecha")
+
+print (lista2)
+
+# Agregar a la lista a partir de una posicion indicada (n,"valor agregar")
+
+lista2.insert(2,"Insertado")
+
+# 2 es la posicion e insertado el valor agregar
+
+print (lista2)
+
+# Eliminar el ultimo elemento 
+
+lista2.pop()
+
+print (lista2)
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
 
 
 
