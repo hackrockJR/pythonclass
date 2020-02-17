@@ -1,0 +1,6 @@
+Uso de variables> 
+
+tweet = "Primer mensaje"
+
+tweet.upper()
+
