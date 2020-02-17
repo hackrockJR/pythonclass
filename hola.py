@@ -40,6 +40,14 @@ lista2.pop()
 
 print (lista2)
 
+# Eliminar elemento indicado
+
+lista2.remove("Insertado")
+
+print(lista2)
+
+
+
 
 
 
