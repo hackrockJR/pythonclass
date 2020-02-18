@@ -133,13 +133,149 @@ print (Resultado8)
 #     print (tweet2)
 # NameError: name 'tweet2' is not defined
 
-# Agregar elemento al diccionario
+# Agregar una clave y valor  al diccionario
 
 print (tweet3)
 
 tweet3["Likes"]= 0
 
 print (tweet3)
+
+# Metodos para diccionario 
+
+tweet4 = {"Autor": "Romero", "Fecha": "2020-02-18", "Texto": "Mi Tercer Mensaje"}
+
+# Pendiente impresion de resultado de keys y values
+# Se puede ver el resultado en el interprete 3.8 del Kali
+# No me genera resultado en cmd o visual studio code en Windows 
+
+clave= (tweet4.keys())
+valor= (tweet4.values())
+
+# Copiar un diccionario en otro sin ocupar mismo espacio en memoria
+
+tweet5 = tweet4.copy ()
+
+print ("Original", tweet4)
+print ("Copia",tweet5)
+
+tweet4["likes"]=2 
+print ("Original con modificacion",tweet4)
+
+print ("Copia sin ser alterado por el original",tweet5)
+
+# Resultado> 
+
+# Original {'Autor': 'Romero', 'Fecha': '2020-02-18', 'Texto': 'Mi Tercer Mensaje'}
+# Copia {'Autor': 'Romero', 'Fecha': '2020-02-18', 'Texto': 'Mi Tercer Mensaje'}
+# Original con modificacion {'Autor': 'Romero', 'Fecha': '2020-02-18', 'Texto': 'Mi Tercer Mensaje', 'likes': 2}
+# Copia sin ser alterado por el original {'Autor': 'Romero', 'Fecha': '2020-02-18', 'Texto': 'Mi Tercer Mensaje'}
+
+# Gnerar lista para recorrer el Diccionario usando items
+# PENDIENTE mostar en pantalla , no me funciona con el comando print
+
+#Listado= tweet4.items()
+
+#print (Listado)
+
+# otras Funciones 
+
+Resultado11 = len(tweet4)
+print(Resultado11)
+
+Resultado12= str(tweet4)
+
+print(Resultado12)
+
+# Constantes 
+
+# True
+# False 
+# None 
+
+Activo = True
+Desactivado = False
+print("")
+print (Activo)
+print (Desactivado)
+
+# Inicializar una variable con el valor nulo
+
+apellidos = None
+
+print("La variable apellidos No contiene ningun valor de inicio", apellidos)
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
 
 
 
