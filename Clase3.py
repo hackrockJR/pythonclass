@@ -89,6 +89,82 @@ print (Resultado5)
 # Juan
 # Fernando
 
+# Manipular Diccionarios 
+
+# Actualizar elemento>
+
+
+tweet2["Texto"] = "Mi primer tweet" 
+
+Resultado6 = tweet2
+
+print (Resultado6)
+
+# Resultado6= {'Autor': 'Juan', 'Fecha': '2020-02-18', 'Texto': 'Mi primer tweet'}
+
+
+# Eliminar Elemento
+
+del tweet3 ["Autor"]
+
+Resultado7 = tweet3
+
+print (Resultado7)
+
+# {'Fecha': '2020-02-18', 'Texto': 'Mi Segundo Mensaje'}
+
+# Vaciar todo el diccionario
+
+tweet2.clear()
+
+Resultado8 = tweet2
+
+print (Resultado8)
+
+# {}
+
+# Eliminar el diccionario
+
+# del tweet2
+
+# print (tweet2)
+
+# REsultado> 
+#     print (tweet2)
+# NameError: name 'tweet2' is not defined
+
+# Agregar elemento al diccionario
+
+print (tweet3)
+
+tweet3["Likes"]= 0
+
+print (tweet3)
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
 
 
 
