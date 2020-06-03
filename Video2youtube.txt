@@ -1,0 +1,48 @@
+print("La siguiente linea repitira el valor * 3\n")
+print("Hola" *3) 
+
+print("La siguiente linea concatena dos cadenas de caracteres\n")
+print ("Hola"+ "Mundo") 
+
+print("La siguiente linea imprime la primera letra de la cadena Mundo\n")
+print("Mundo" [0])
+
+print("La siguiente linea  imprime desde la primera posicion hasta la penultima letra\n")
+print("Mundo" [0:-1])
+
+print("La siguiente linea imprime la penultima letra \n")
+print("Mundo" [-2:-1])
+
+print("\n Variables nombre= juan,apellido= Romero \n")
+nombre= "juan"
+apellido="Romero"
+
+
+'''Metodos
+
+.upper() convierte a mayuscula la cadena
+.lower() convierte a minuscula la cadena
+.capitalize() convierte la primera letra a mayuscula
+.count("B") metodo para contar en la cadena la letra B
+.replace(antiguo,nuevo) metodo para remplazar de una busqueda por un nuevo valor
+len(variable) funcion para contar a una cadena de caracteres en una variable
+'''
+
+Resultado1= nombre.upper()
+Resultado2= apellido.lower()
+Resultado3= nombre.capitalize()
+Resultado4= apellido.count("o")
+Resultado5= nombre.replace("juan","Juan",-1)
+Resultado6= len(apellido)
+
+print("Metodo upper\n",Resultado1)
+print("Metodo lower\n",Resultado2)
+print("Metodo capitalize\n",Resultado3)
+print("Metodo count de la palabra Romero , buscando la letra o \n",Resultado4)
+print("Metodo replace\n",Resultado5)
+print("Funcion len\n",Resultado6)
+
+
+
+
+
